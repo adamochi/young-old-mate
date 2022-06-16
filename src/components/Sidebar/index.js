@@ -1,19 +1,18 @@
-import './index.scss'
-import LogoS from '../../assets/images/whiteleaf.png'
-import LogoSubtitle from '../../assets/images/green.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import "./index.scss";
+import LogoS from "../../assets/images/whiteleaf.png";
+import LogoSubtitle from "../../assets/images/green.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookSquare,
-  faDiscord,
   faInstagram,
-} from '@fortawesome/free-brands-svg-icons'
+} from "@fortawesome/free-brands-svg-icons";
 import {
   faHouseChimneyWindow,
   faUserAstronaut,
   faEnvelopesBulk,
   faHammer,
-} from '@fortawesome/free-solid-svg-icons'
-import { Link, NavLink } from 'react-router-dom'
+} from "@fortawesome/free-solid-svg-icons";
+import { Link, NavLink } from "react-router-dom";
 
 const Sidebar = () => {
   return (
@@ -70,14 +69,9 @@ const Sidebar = () => {
             <FontAwesomeIcon icon={faFacebookSquare} color="lightblue" />
           </a>
         </li>
-        <li>
-          <a href="#">
-            <FontAwesomeIcon icon={faDiscord} color="lightblue" />
-          </a>
-        </li>
       </ul>
     </div>
-  )
-}
+  );
+};
 
-export default Sidebar
+export default Sidebar;

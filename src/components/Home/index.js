@@ -1,61 +1,61 @@
-import { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
-import Loader from 'react-loaders'
-import AnimatedLetters from '../AnimatedLetters'
-import LogoTitle from '../../assets/images/at/logo-s.png'
-import Logo from './Logo'
-import './index.scss'
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import Loader from "react-loaders";
+import AnimatedLetters from "../AnimatedLetters";
+import LogoTitle from "../../assets/images/at/logo-s.png";
+import Logo from "./Logo";
+import "./index.scss";
 
 const Home = () => {
-  const [letterClass, setLetterClass] = useState('text-animate')
+  const [letterClass, setLetterClass] = useState("text-animate");
 
   const nameArray = [
-    'y',
-    'o',
-    'u',
-    'n',
-    'g',
-    '_',
-    'o',
-    'l',
-    'd',
-    '_',
-    'm',
-    'a',
-    't',
-    'e',
-  ]
+    "y",
+    "o",
+    "u",
+    "n",
+    "g",
+    "_",
+    "o",
+    "l",
+    "d",
+    "_",
+    "m",
+    "a",
+    "t",
+    "e",
+  ];
   const jobArray = [
-    'F',
-    'r',
-    'e',
-    'e',
-    'l',
-    'a',
-    'n',
-    'c',
-    'e',
-    ' ',
-    'W',
-    'o',
-    'o',
-    'd',
-    's',
-    'm',
-    'i',
-    't',
-    'h',
-  ]
+    "F",
+    "r",
+    "e",
+    "e",
+    "l",
+    "a",
+    "n",
+    "c",
+    "e",
+    " ",
+    "W",
+    "o",
+    "o",
+    "d",
+    "s",
+    "m",
+    "i",
+    "t",
+    "h",
+  ];
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setLetterClass('text-animate-hover')
-    }, 3000)
+      setLetterClass("text-animate-hover");
+    }, 3000);
 
     return () => {
-      clearTimeout(timer)
-    }
-  })
+      clearTimeout(timer);
+    };
+  });
 
   return (
     <>
@@ -101,7 +101,7 @@ const Home = () => {
 
       <Loader type="pacman" />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

@@ -1,22 +1,22 @@
-import React, { useEffect, useState } from 'react'
-import Loader from 'react-loaders'
-import AnimatedLetters from '../AnimatedLetters'
-import './index.scss'
-import portfolioData from '../../data/portfolio.json'
+import React, { useEffect, useState } from "react";
+import Loader from "react-loaders";
+import AnimatedLetters from "../AnimatedLetters";
+import "./index.scss";
+import portfolioData from "../../data/portfolio.json";
 
 const Portfolio = () => {
-  const [letterClass, setLetterClass] = useState('text-animate')
-  console.log(portfolioData)
+  const [letterClass, setLetterClass] = useState("text-animate");
+  console.log(portfolioData);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setLetterClass('text-animate-hover')
-    }, 3000)
+      setLetterClass("text-animate-hover");
+    }, 3000);
 
     return () => {
-      clearTimeout(timer)
-    }
-  })
+      clearTimeout(timer);
+    };
+  });
 
   const renderPortfolio = (portfolio) => {
     return (
@@ -37,11 +37,11 @@ const Portfolio = () => {
                 </button>
               </div>
             </div>
-          )
+          );
         })}
       </div>
-    )
-  }
+    );
+  };
 
   return (
     <>
@@ -49,7 +49,7 @@ const Portfolio = () => {
         <h1 className="page-title">
           <AnimatedLetters
             letterClass={letterClass}
-            strArray={'Portfolio'.split('')}
+            strArray={"Portfolio".split("")}
             idx={15}
           />
         </h1>
@@ -57,7 +57,7 @@ const Portfolio = () => {
       </div>
       <Loader type="pacman" />
     </>
-  )
-}
+  );
+};
 
-export default Portfolio
+export default Portfolio;
