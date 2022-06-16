@@ -5,6 +5,7 @@ import Contact from "./components/Contact";
 import Layout from "./components/Layout";
 import Portfolio from "./components/Portfolio";
 import "./App.scss";
+
 function App() {
   return (
     <>
