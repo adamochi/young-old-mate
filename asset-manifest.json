@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/young-old-mate/static/css/main.0b3ffed0.css",
-    "main.js": "/young-old-mate/static/js/main.845b6b5c.js",
+    "main.css": "/young-old-mate/static/css/main.15cc3a5a.css",
+    "main.js": "/young-old-mate/static/js/main.c09e06a8.js",
     "static/media/logo-s.png": "/young-old-mate/static/media/logo-s.497d954c8f75845dbeeb.png",
     "static/media/logo5.png": "/young-old-mate/static/media/logo5.2871a87ccc8f54c40520.png",
     "static/media/logo6.png": "/young-old-mate/static/media/logo6.ca3d11e73a2012f14d79.png",
@@ -17,11 +17,11 @@
     "static/media/CoolveticaRg-Regular.woff": "/young-old-mate/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
     "static/media/CoolveticaRg-Regular.woff2": "/young-old-mate/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/young-old-mate/index.html",
-    "main.0b3ffed0.css.map": "/young-old-mate/static/css/main.0b3ffed0.css.map",
-    "main.845b6b5c.js.map": "/young-old-mate/static/js/main.845b6b5c.js.map"
+    "main.15cc3a5a.css.map": "/young-old-mate/static/css/main.15cc3a5a.css.map",
+    "main.c09e06a8.js.map": "/young-old-mate/static/js/main.c09e06a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b3ffed0.css",
-    "static/js/main.845b6b5c.js"
+    "static/css/main.15cc3a5a.css",
+    "static/js/main.c09e06a8.js"
   ]
 }
