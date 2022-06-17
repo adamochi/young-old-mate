@@ -21,12 +21,12 @@ const Logo = () => {
         width="1017pt"
         height="932pt"
         version="1.0"
-        viewBox="0 0 1017 932"
+        viewBox="0 0 1000 600"
         xmlns="http://www.w3.org/2000/svg"
       >
         <g
           className="svg-container"
-          transform="translate(0 457) scale(.1 -.1)"
+          transform="translate(0 500) scale(.1 -.1)"
           fill="none"
         >
           <path
