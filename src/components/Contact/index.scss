@@ -124,9 +124,6 @@
   }
 }
 @media screen and (orientation: portrait) {
-  .contact-page {
-    display: flex;
-  }
   .contact-form {
     width: 100%;
     margin-top: 20px;
@@ -189,9 +186,10 @@
   .map-wrap {
     background: rgba(8, 253, 216, 0.1);
     float: bottom;
-    width: 53%;
+    width: 85%;
     height: 115%;
     margin-top: 200%;
+    margin-left: -70px;
   }
 
   .leaflet-container {
@@ -205,11 +203,11 @@
 
   .info-map {
     position: absolute;
-    background: #000;
+    background: rgba(0, 0, 0, 0.719);
     top: 100%;
-    right: 30%;
+    right: 20%;
     z-index: 999999;
-    width: 267px;
+    width: 150px;
     padding: 20px;
     color: #fff;
     font-family: "Helvetica";

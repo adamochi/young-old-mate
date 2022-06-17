@@ -121,14 +121,17 @@
 }
 @media screen and (orientation: portrait) {
   .container.contact-page {
+    display: flex;
+    overflow: auto;
+
     h1 {
       font-size: 32px;
       font-family: "Coolvetica";
       color: #01f7a5;
       font-weight: 400;
-      margin-top: 50px;
+      margin-top: 20px;
       position: relative;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
       left: -10px;
 
       &:before {
@@ -179,7 +182,7 @@
       font-family: "Coolvetica";
       color: #01f7a5;
       font-weight: 400;
-      margin-top: 50px;
+      margin-top: 10px;
       position: relative;
       margin-bottom: 30px;
       left: -10px;
