@@ -39,12 +39,9 @@ const About = () => {
           </p>
           <p align="LEFT">
             I'm quietly confident, naturally curious, and perpetually working on
-            improving my ... design problem at a time.
+            improving my implementation... design.. problem at a time.
           </p>
-          <p>
-            If I need to define myself in one sentence that would be a family
-            person, ... and tech-obsessed!!!
-          </p>
+          <p>If I need to define myself in one sentence that would be. . .</p>
         </div>
 
         <div className="stage-cube-cont">

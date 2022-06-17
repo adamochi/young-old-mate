@@ -120,13 +120,13 @@
   }
 }
 @media screen and (orientation: portrait) {
-  .container.about-page {
+  .container.contact-page {
     h1 {
       font-size: 32px;
       font-family: "Coolvetica";
       color: #01f7a5;
       font-weight: 400;
-      margin-top: 0;
+      margin-top: 50px;
       position: relative;
       margin-bottom: 40px;
       left: -10px;
@@ -163,6 +163,59 @@
       top: 0;
       transform: translateY(0%);
       width: 60%;
+      vertical-align: middle;
+      display: table-cell;
+      max-height: 90%;
+
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .container.about-page {
+    h1 {
+      font-size: 32px;
+      font-family: "Coolvetica";
+      color: #01f7a5;
+      font-weight: 400;
+      margin-top: 50px;
+      position: relative;
+      margin-bottom: 30px;
+      left: -10px;
+
+      &:before {
+        content: "↹";
+        font-family: "La Belle Aurore", cursive;
+        color: #01f7a5;
+        font-size: 18px;
+        position: absolute;
+        margin-top: -10px;
+        left: -10px;
+        opacity: 0.6;
+        line-height: 18px;
+      }
+
+      &:after {
+        content: "↷";
+        font-family: "La Belle Aurore", cursive;
+        color: #01f7a5;
+        font-size: 16px;
+        line-height: 18px;
+        position: absolute;
+        left: -30px;
+        bottom: -20px;
+        margin-left: 20px;
+        opacity: 0.6;
+      }
+    }
+
+    .text-zone {
+      position: absolute;
+      left: 8%;
+      top: 0;
+      transform: translateY(0%);
+      width: 65%;
       vertical-align: middle;
       display: table-cell;
       max-height: 90%;
