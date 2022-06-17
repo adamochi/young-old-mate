@@ -22,9 +22,7 @@
     position: absolute;
     width: 200px;
     height: 200px;
-    background: rgba(255, 255, 255, 0.247);
     text-align: center;
-    font-size: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,10 +36,10 @@
     transform: rotateY(90deg) translateZ(100px);
   }
   .face3 {
-    transform: scale(100%) rotateY(90deg) rotateX(90deg) translateZ(100px);
+    transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
   }
   .face4 {
-    transform: scale(100%) rotateY(180deg) rotateZ(90deg) translateZ(100px);
+    transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
   }
   .face5 {
     transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
@@ -70,5 +68,41 @@
   }
   83% {
     transform: rotateX(90deg);
+  }
+}
+@media screen and (orientation: portrait) {
+  .stage-cube-cont {
+    width: 100%;
+    height: 100%;
+    top: 190px;
+    margin-left: 0;
+    left: -50px;
+  }
+
+  .cubespinner {
+    div {
+      box-shadow: 0 0 10px 0px rgba(255, 255, 224, 0.733);
+    }
+    .face1 {
+      transform: scaleZ(50%) scale(50%) translateZ(100px);
+    }
+    .face2 {
+      transform: scaleZ(50%) scale(50%) rotateY(90deg) translateZ(100px);
+    }
+    .face3 {
+      transform: scaleZ(50%) scale(50%) rotateY(90deg) rotateX(90deg)
+        translateZ(100px);
+    }
+    .face4 {
+      transform: scaleZ(50%) scale(50%) rotateY(180deg) rotateZ(90deg)
+        translateZ(100px);
+    }
+    .face5 {
+      transform: scaleZ(50%) scale(50%) rotateY(-90deg) rotateZ(90deg)
+        translateZ(100px);
+    }
+    .face6 {
+      transform: scaleZ(50%) scale(50%) rotateX(-90deg) translateZ(100px);
+    }
   }
 }
