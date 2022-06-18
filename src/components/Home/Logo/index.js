@@ -1,6 +1,6 @@
 import { useRef } from "react";
 
-import LogoS from "../../../assets/images/logo-s.png";
+import LogoS from "../../../assets/images/profile.png";
 import "./index.scss";
 
 const Logo = () => {
@@ -11,7 +11,7 @@ const Logo = () => {
   return (
     <div className="logo-container" ref={bgRef}>
       <img
-        className="solid-logo"
+        className="profile-pic"
         ref={solidLogoRef}
         src={LogoS}
         alt="young_old_mate"

@@ -5,6 +5,7 @@ import AnimatedLetters from "../AnimatedLetters";
 import LogoTitle from "../../assets/images/at/logo-s.png";
 import Logo from "./Logo";
 import "./index.scss";
+import greenbean from "../../assets/images/woodsmith.png";
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
@@ -60,6 +61,7 @@ const Home = () => {
   return (
     <>
       <div className="container home-page">
+        <img className="woodsmith" src={greenbean} alt="logo" />
         <div className="text-zone">
           <h1>
             <span className={letterClass}>H</span>

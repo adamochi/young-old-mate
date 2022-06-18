@@ -10,8 +10,11 @@
 
   .logo {
     display: block;
-    padding: 8px 0;
-    width: 150px;
+    padding: 5px;
+    width: 110%;
+    height: 80px;
+    background-color: rgba(138, 224, 174, 0.13);
+    border-radius: 3px;
 
     img {
       display: block;
@@ -147,7 +150,7 @@
 
     nav {
       position: absolute;
-      bottom: 0;
+      top: 80px;
       left: 0;
       display: flex;
       align-items: center;

@@ -15,15 +15,16 @@
     top: 15%;
   }
 
-  .solid-logo {
+  .profile-pic {
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 25%;
     margin: auto;
-    width: 25vmin;
+    width: 30vmin;
     opacity: 1;
     transform: rotateZ(0deg) !important;
     z-index: 1;
+    border-radius: 50%;
   }
 }
 
@@ -41,12 +42,19 @@
     left: 30%;
     top: 42%;
 
+    .profile-pic {
+      width: 25vmin;
+      top: -100%;
+      left: 12%;
+    }
+
     svg {
       position: absolute;
-      width: 45vmin;
-      height: 45vmin;
+      width: 35vmin;
+      height: 35vmin;
       transform: rotateZ(0deg) !important;
-      top: 15%;
+      top: 60%;
+      left: 20px;
     }
 
     .solid-logo {

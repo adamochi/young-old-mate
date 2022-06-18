@@ -1,4 +1,8 @@
 .home-page {
+  .woodsmith {
+    max-width: 45%;
+    margin: 5%;
+  }
   .text-zone {
     position: absolute;
     left: 15%;
@@ -87,10 +91,14 @@
 }
 @media screen and (orientation: portrait) {
   .home-page {
+    .woodsmith {
+      max-width: 95%;
+      margin: 5%;
+    }
     .text-zone {
       position: absolute;
       left: 5%;
-      top: 10%;
+      top: 23%;
       width: 90%;
       height: 450px;
       max-height: 90%;
@@ -99,8 +107,8 @@
 
     h1 {
       color: #fff;
-      font-size: 30px;
-      line-height: 35px;
+      font-size: 28px;
+      line-height: 32px;
       margin: 0;
       font-family: "Coolvetica";
       font-weight: 400;
