@@ -19,7 +19,6 @@
     position: absolute;
     top: 30%;
     left: 25%;
-    margin: auto;
     width: 30vmin;
     opacity: 1;
     transform: rotateZ(0deg) !important;
@@ -32,29 +31,31 @@
   stroke: #01f7a5;
   stroke-width: 30;
 }
-@media screen and (orientation: portrait) {
+@media screen and (max-width: 1050px) {
   .logo-container {
     z-index: 0;
-    width: 50%;
-    height: 50vmin;
+    height: 80vh;
+    width: 100%;
     opacity: 1;
-    position: absolute;
-    left: 30%;
-    top: 42%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    top: 0;
+    transform: translateY();
 
     .profile-pic {
-      width: 25vmin;
-      top: -100%;
-      left: 12%;
+      position: absolute;
+      left: 35%;
+      top: 0;
     }
 
     svg {
-      position: absolute;
-      width: 35vmin;
-      height: 35vmin;
-      transform: rotateZ(0deg) !important;
-      top: 60%;
-      left: 20px;
+      width: 20vmin;
+      height: 20vmin;
+      position: relative;
+      transform: translateY(10px) rotateZ(0deg) !important;
     }
 
     .solid-logo {
@@ -63,7 +64,7 @@
   }
 
   .svg-container {
-    stroke: #01f7a5;
+    stroke: #01f7a5b2;
     stroke-width: 60;
   }
 }

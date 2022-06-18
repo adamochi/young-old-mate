@@ -94,6 +94,10 @@ const Contact = () => {
                 </li>
                 <li>
                   <input type="submit" className="flat-button" value="SEND" />
+
+                  <button type="button" className="flat-button-b">
+                    scroll down for contact info ↴
+                  </button>
                 </li>
               </ul>
             </form>

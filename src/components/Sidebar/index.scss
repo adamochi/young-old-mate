@@ -133,7 +133,7 @@
     }
   }
 }
-@media screen and (orientation: portrait) {
+@media screen and (max-width: 1035px) {
   .nav-bar {
     position: absolute;
     left: 0;
@@ -141,7 +141,7 @@
     flex-direction: row;
     width: 100%;
     height: fit-content;
-    bottom: 0;
+    top: 10%;
     z-index: 5;
 
     .logo {
