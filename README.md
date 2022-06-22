@@ -1,6 +1,6 @@
 # Check this site out on Netlify!
 
-- https://musical-fudge-113631.netlify.app/
+- https://greenbean-woodsmith.netlify.app/
 
 # installs
 
