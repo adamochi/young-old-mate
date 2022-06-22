@@ -139,10 +139,10 @@
     }
   }
 }
-@media screen and (max-width: 1035px) {
+@media screen and (orientation: portrait) {
   .contact-form {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 0;
 
     .flat-button-b {
       opacity: 1;

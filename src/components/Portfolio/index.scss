@@ -115,11 +115,11 @@
 }
 @media screen and (orientation: portrait) {
   .portfolio-page {
-    margin: 5px 0px;
+    margin: 0;
     width: 80%;
     position: absolute;
     height: 100%;
-    overflow: scroll;
+    overflow: hidden;
 
     h1.page-title {
       margin-left: -50px;
@@ -132,6 +132,8 @@
       margin-right: 10px;
       display: flex;
       flex-wrap: nowrap;
+      overflow: auto;
+      padding-bottom: 10px;
     }
 
     .image-box {
