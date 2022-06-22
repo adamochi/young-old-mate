@@ -10,28 +10,30 @@ const Logo = () => {
 
   return (
     <div className="logo-container" ref={bgRef}>
-      <img
-        className="profile-pic"
-        ref={solidLogoRef}
-        src={LogoS}
-        alt="young_old_mate"
-      />
-
-      <svg
-        width="1017pt"
-        height="932pt"
-        version="1.0"
-        viewBox="0 0 1000 600"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <g
-          className="svg-container"
-          transform="translate(0 500) scale(.1 -.1)"
-          fill="none"
+      <div className="profile-pic-div">
+        <img
+          className="profile-pic"
+          ref={solidLogoRef}
+          src={LogoS}
+          alt="young_old_mate"
+        />
+      </div>
+      <div className="svg-div">
+        <svg
+          width="1017pt"
+          height="932pt"
+          version="1.0"
+          viewBox="0 0 1000 600"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <path
-            ref={outlineLogoRef}
-            d="M9784 6838 c-27 -29 -65 -73 -84 -97 -19 -24 -70 -71 -114 -105 -253
+          <g
+            className="svg-container"
+            transform="translate(0 500) scale(.1 -.1)"
+            fill="none"
+          >
+            <path
+              ref={outlineLogoRef}
+              d="M9784 6838 c-27 -29 -65 -73 -84 -97 -19 -24 -70 -71 -114 -105 -253
             -197 -318 -231 -651 -341 -298 -99 -338 -108 -665 -150 -657 -84 -880 -129
             -1210 -245 -290 -101 -539 -224 -760 -373 -92 -63 -303 -242 -387 -331 -225
             -236 -426 -545 -534 -820 -54 -135 -114 -452 -140 -736 -12 -132 -12 -1010 1
@@ -77,9 +79,10 @@ const Logo = () => {
             237 0 276 -2 266 -14 -44 -53 -364 -158 -631 -208 -115 -21 -180 -25 -497 -34
             -552 -15 -1009 -31 -1069 -37 -36 -4 -52 -2 -50 5 4 10 239 169 374 252 232
             143 433 249 471 250 6 0 45 -15 86 -34z"
-          />
-        </g>
-      </svg>
+            />
+          </g>
+        </svg>
+      </div>
     </div>
   );
 };
